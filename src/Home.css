@@ -1,0 +1,9 @@
+
+.home-container{
+    background-color:#7bbad1 ;
+    min-height: 100vh;
+    margin: 0;
+
+}.heading{
+    color: rgb(45, 45, 193);
+}
