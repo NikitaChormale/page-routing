@@ -8,11 +8,11 @@ import Contact from './Contact';
 const root= createRoot(document.getElementById('root'));
 const path=window.location.pathname;
 console.log("current path:",path);
-if(path ==="/Home"){
-    root.render(<Home/>);
+if(path ==="/"){
+    root.render(<About/>);
 }
-else if (path==="/About"){
-   root.render(<About/>);
+else if (path==="/Home"){
+   root.render(<Home/>);
 } 
 else if (path==="/contact"){
   root.render(<Contact/>);
